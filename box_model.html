@@ -1,0 +1,1016 @@
+<html>
+
+
+<head>
+    
+    
+    <style>
+    
+        body {
+            margin: auto 0;
+            background-color: #eee;
+            overflow: hidden;
+            
+    
+        }
+    
+        #content {
+            
+            width: 100%;
+            display: flex;
+       
+        }
+        
+        #header
+        {background-color: #000;
+        width: 100%;
+        height: 100px;
+       }
+        
+        
+        
+        #one {
+         
+          
+            width: 10%;
+            min-width: 200px;
+            background-color:#8d8d8d;
+          padding-top: 20px;
+            
+            float: left;
+          overflow: hidden;
+            text-align: center;
+         
+            
+        }
+        
+        #two {
+            
+            
+            width: 90%;
+          
+            background-color: #cecece;
+            float: right;
+          
+            
+           
+           
+        }
+        
+        #navlinks {
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        
+        #pagecontent {
+            flex-direction: row;
+        }
+        
+        #footer {
+           background-color: #eee;
+        width: 100%;
+        height: 200px;
+       
+        }
+    
+        #main {
+            width: 80%;
+            background-color: #d47a7a;
+            height: 100%;
+            margin-left: 10%;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+        
+        .pagenav {float: left;
+        
+       
+        flex-direction: row;
+        display: block;}
+        
+       @media only screen and (max-width: 800px) {
+ 
+           
+    #content {width: 100%; flex-direction: column;}
+           
+    #one {width: 100%; flex-direction: row; height: 30px; text-align: center; overflow: hidden;}
+           
+           #two {width: 100%;}
+           
+           #one:hover {overflow: visible; height: 200px; transition: height 0.3s linear;}
+         
+        
+           
+           #navlinks .pagenav {width: 100%; text-align: center !important; }
+
+           
+          
+           
+}
+        
+    </style>
+    
+    
+    </head>
+
+
+<body>
+  
+    <div id="content">
+    
+    <div id="one">PAGE TITLE FOR LINKS
+      
+        <div id="navlinks">
+       <p><a href="#" class="pagenav">Link 1</a></p><br>
+     <p><a href="#" class="pagenav">Link 1</a></p><br>
+       <p><a href="#" class="pagenav">Link 1</a></p><br>
+   <p> <a href="#" class="pagenav">Link 1</a></p><br>
+        </div>
+        </div>
+    <div id="two">
+     <div id="main">
+        
+        
+        
+
+    
+    
+                
+
+    
+
+ 
+    <h1 style="font-family: 'Metric', sans-serif;">
+        HPE Synergy Software Releases - Overview
+    </h1>
+  <br>
+    <p>
+        HPE Synergy Software Releases are available for customers to download and use on products which are under an active HPE Warranty or an HPE Support Agreement. 
+    </p>
+
+    <p>
+        HPE Synergy Software Releases are comprised of HPE Synergy Management combinations (a versioned set of Composer and Image Streamer software) and HPE Synergy Custom SPP's. Combinations of specific releases have been developed, tested, and released together. For Composer and Image
+        Streamer, combinations for download are provided: firmware updates to existing images, and complete images for recovery (in the event that re-imaging of the system is needed).
+    </p>
+
+    
+    
+    <h3
+        style="border-top-style: solid; border-color: #01A982; color: red; margin-top: 40px; padding-top: 10px;">
+        Attention
+    </h3>
+
+    <p>
+        Updated System ROM firmware in HPE Synergy Custom SPP’s
+        2019.03.20190826, 2019.03.20190825, 2019.03.20190718, 2019.03.20190612, 2019.03.20190514, and 2018.11.20190611 address potential issues of uncorrectable memory errors or boot time memory training issues with Intel Xeon Scalable Performance Bronze, Silver, and Gold 5x00 processors. (This issue is not unique to HPE servers.) HPE recommends
+        that any customer experiencing a memory issue immediately update their system ROM before replacing any components. For more information, see
+        <a
+            href="https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-a00072625en_us"
+            style="color: black; font-weight: bold;"
+            target="_blank"
+            >Customer Notice a00072625en_us</a>.
+    </p>
+
+    <p>
+        <b>CAUTION:</b> HPE Synergy Custom SPP 2018.11.20190205 has an
+        identified issue as described in
+        <a
+            href="https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-a00069625en_us"
+            style="color: #000; font-weight: bold;"
+            >Customer Bulletin a00069625en_us</a
+        >. It has been replaced by HPE Synergy Custom SPP 2018.11.20190405.
+    </p>
+
+    <p>
+        HPE Composer (HPE OneView) 4.20.01 has an identified issue as described
+        in
+        <a
+            href="https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-a00068248en_us"
+            style="color: #000; font-weight: bold;"
+            target="_blank">
+            Customer Advisory a00068248en_us</a>. This issue is less likely to occur with HPE Synergy Composer because fewer Synergy systems have the required number of drives to trigger the issue. This HPE Composer (HPE OneView) 4.20.01.01 release corrects the issue.
+    </p>
+
+    
+    
+    
+    <h3>
+        Upgrading to HPE Synergy 5.0
+    </h3>
+
+    <p>
+        Upgrading to HPE OneView 5.0 on an HPE Synergy Composer requires more time than earlier releases. Due to the additional time required to upgrade the HPE Synergy Composers for this release, it is permissible to
+        defer updating HPE Synergy Image Streamer to a separate appliance maintenance window. Refer to the HPE OneView for Synergy and HPE Synergy Image Streamer release notes for specific update times and general update requirements.
+    </p>
+    
+    <p> Any HPE OneView 4.10 or later can update to version 5.0.</p>
+    <P>For more details on these changes, review the <a
+            href="https://support.hpe.com/hpsc/doc/public/display?docId=a00069591en_us"
+            style="color: black; font-weight: bold;"
+            target="_blank"
+            >HPE OneView 5.0 Release Notes for HPE Synergy</a>.</P>
+    <p></p>
+    
+    
+<p><b>NOTE:</b> During the upgrade, after the progress bar displays “100%”, the browser will display “Temporarily unavailable” for several minutes while the post-upgrade refresh processing is taking place. For details, refer to <a href="https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-a00082207en_us" style="color: #000; font-weight: bold;">Customer Advisory a00082207en</a>.</p>
+
+
+    <p>
+        <a
+            href="https://support.hpe.com/hpsc/doc/public/display?docId=a00069591en_us"
+            style="color: black; font-weight: bold;"
+            target="_blank"
+            >HPE OneView 5.0 Release Notes for HPE Synergy</a>
+    </p>
+
+    <p style="border-bottom-style: solid; padding-bottom: 10px; border-color: #01A982;">
+        <a
+            href="https://support.hpe.com/hpsc/doc/public/display?docId=a00074767en_us"
+            style="color: black; font-weight: bold;"
+            target="_blank"
+            >HPE Synergy Image Streamer 5.0 Release Notes</a>
+    </p>
+
+    <h1 style="margin-top: 40px;">HPE Synergy Software Release</h1>
+
+    <h3>Getting Started</h3>
+
+    <p>
+        <b
+            >These releases show which logical component combinations can be
+            selected.</b
+        >
+    </p>
+
+   
+
+    <ul>
+        
+        <li>Identify your HPE Synergy Management combination and follow across the row to your preferred HPE Synergy Custom SPP.</li>
+        <li>
+            Select your HPE Synergy Management combination and follow the link to the HPE Support Center webpage. Access to the software releases requires validation via the HPE Support Center.
+        </li>
+        <li>HPE Synergy management combination webpages provide download bits and extensive information on specific components and firmware versions.
+        </li>
+        
+    </ul>
+    
+    <p>In the following table, recommended versions are shown in bold font.</p>
+
+    <!-- TABLE HERE -->
+
+    <table
+        style="width: 100%;  font-family: sans-serif; border-collapse:collapse; margin-top: 20px; vertical-align: top; font-size: 13px;"
+        border="0"
+    >
+        <tbody>
+            <tr>
+                <td
+                    rowspan="2"
+                    style="width: 25%; height: 60px; font-weight: bold; font-family: sans-serif; background-color: #425563; text-align: center; font-size: 20px; padding: 10px; color: white; "
+                >
+                    HPE SYNERGY MANAGEMENT combinations
+                </td>
+                <td
+                    colspan="4"
+                    style="width: 80%;  height: 30px; font-family: sans-serif; font-size: 24px; text-align: center; font-weight: bold; padding-bottom: 10px; background-color: #eee; padding-top: 20px;"
+                >
+                    HPE SYNERGY CUSTOM SPPs
+                </td>
+            </tr>
+
+            <tr style="vertical-align: top;">
+                <td
+                    style="text-align: center; font-family: sans-serif; font-weight: bold;background-color: #eee; font-size: 14px;"
+                >
+                    JUNE Core SPP <br />2018.06.0
+                    <p style="color: red; margin-top: -2px;">EOS: 9/30/2019</p>
+                </td>
+                <td
+                    style="text-align: center; font-family: sans-serif; font-weight: bold;background-color: #eee; font-size: 14px;"
+                >
+                    SEPT Core SPP <br />2018.09.0
+                </td>
+                <td
+                    style="text-align: center; font-family: sans-serif; font-weight: bold;background-color: #eee; font-size: 14px;"
+                >
+                    NOV Core SPP <br />2018.11.0
+                </td>
+                <td
+                    style="text-align: center; font-family: sans-serif; font-weight: bold;background-color: #eee; font-size: 14px;"
+                >
+                    MAR Core SPP <br />2019.03.1
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    colspan="5"
+                    style="font-family: sans-serif; font-weight: bold; background-color: #01A982; padding: 10px; color: white;"
+                >
+                    HPE Synergy 5.0 Software Releases
+                </td>
+            </tr>
+
+            <tr style="vertical-align: text-top;">
+                <td
+                    style="background-color: #425563; color: white; font-weight: bolder; padding: 20px;"
+                >
+                    <a
+                        href="https://www.hpe.com/global/swpublishing/MTX-b7eb05fbaf394432b7f6791629"
+                        style="color: white; font-weight: bolder; text-decoration: none;"
+                        >Composer (HPE OneView) 5.00 and HPE Image Streamer
+                        5.00</a
+                    >
+                </td>
+
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    Not Supported
+                </td>
+
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    Not Supported
+                </td>
+
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    <p style="margin: 10;">2018.11.20190611</p>
+                    <p>2018.11.20190405</p>
+                    <p>2018.11.20181205</p>
+                </td>
+
+                <td
+                    style="text-align: center; border-left-style: solid; border-right-style: solid;border-color: #eee;"
+                >
+                    <p style="font-family: sans-serif; font-weight: bolder;">
+                        2019.03.20190826
+                    </p>
+                    <p>2019.03.20190825</p>
+                    <p>2019.03.20190718</p>
+
+                    <p>2019.03.20190612</p>
+
+                    <p>2019.03.20190514</p>
+
+                    <p>2019.03.20190401</p>
+                    <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    colspan="5"
+                    style="font-family: sans-serif; font-weight: bold; background-color: #01A982; padding: 10px; color: white;"
+                >
+                    HPE Synergy 4.20 Software Releases
+                </td>
+            </tr>
+
+            <tr style="vertical-align: text-top;">
+                <td
+                    style="background-color: #425563; color: white; font-weight: bold; padding: 20px;"
+                >
+                    <p>
+                        <a
+                            href="https://www.hpe.com/global/swpublishing/MTX-0ef2533eae5b4976980d0f7ffb"
+                            style="color: white; font-weight: bolder; text-decoration: none;"
+                            >Composer (HPE OneView) 4.20.02 and Image Streamer
+                            4.20.01</a
+                        >
+                    </p>
+                    <p>
+                        <a
+                            href="https://www.hpe.com/global/swpublishing/MTX-95397a1321f4455099ddf8edc9"
+                            style="color: white; font-weight: normal; text-decoration: none;"
+                            >Composer (HPE OneView) 4.20.01.01 and Image
+                            Streamer 4.20.00</a
+                        >
+                    </p>
+                    <p>
+                        <a
+                            href="https://support.hpe.com/hpsc/swd/public/detail?swItemId=MTX_576ed73cc2674d2e9cbcbf998e"
+                            style="color: white; font-weight: normal; text-decoration: none;"
+                            >Composer (HPE OneView) 4.20.01 and Image Streamer
+                            4.20.00</a
+                        >
+                    </p>
+                </td>
+
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    <p>2018.09.20180709</p>
+                </td>
+
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    <p>2018.09.20180919</p>
+                </td>
+
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    <p style="margin: 10;">2018.11.20190611</p>
+
+                    <p style="margin: 10;">2018.11.20190405</p>
+
+                    <p style="margin: 10;">2018.11.20190205</p>
+
+                    <p style="margin: 10;">2018.11.20181205</p>
+                </td>
+
+                <td
+                    style="text-align: center; border-left-style: solid; border-right-style: solid; border-color: #eee;"
+                >
+                    <p
+                        style="font-family: sans-serif; font-weight: bold; text-align: center;"
+                    >
+                        2019.03.20190825
+                    </p>
+
+                    <p style="margin: 10;">2019.03.20190718</p>
+
+                    <p style="margin: 10;">2019.03.20190612</p>
+
+                    <p style="margin: 10;">2019.03.20190514</p>
+
+                    <p style="margin: 10;">2019.03.20190401</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    colspan="5"
+                    style="font-family: sans-serif; font-weight: bold; background-color: #01A982; padding: 10px; color: white;"
+                >
+                    HPE Synergy 4.10 Software Releases
+                </td>
+            </tr>
+
+            <tr
+                style="border-bottom-style: solid; border-color: #01A982; vertical-align: text-top;"
+            >
+                <td
+                    style="background-color: #425563; color: white; font-weight: bold; padding: 20px; "
+                >
+                    <p>
+                        <a
+                            href="https://support.hpe.com/hpsc/swd/public/detail?swItemId=MTX_efc4b8e7a531486f9297162dbc"
+                            style="color: white; font-weight: bolder; text-decoration: none;"
+                            >Composer (HPE OneView) 4.10.05 and Image Streamer
+                            4.10.05</a
+                        >
+                    </p>
+                </td>
+
+                <td style="text-align: center; font-family: sans-serif;">
+                    <p>2018.06.20180709</p>
+                    <p>2018.06.20180619</p>
+                </td>
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    <p>2018.09.20180919</p>
+                </td>
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    <p style="font-weight: bold;">2018.11.20190611</p>
+
+                    <p>2018.11.20181205</p>
+                </td>
+                <td
+                    style="text-align: center; border-left-style: solid; border-right-style: solid;border-color: #eee;"
+                >
+                    Not Supported
+                </td>
+            </tr>
+
+            <tr
+                style="border-bottom-style: solid; border-color: #eee; vertical-align: text-top;"
+            >
+                <td
+                    style="background-color: #425563; color: white; font-weight: bold; padding: 20px;"
+                >
+                    <p>
+                        <a
+                            href="https://www.hpe.com/global/swpublishing/MTX-dd85d6c85e7244d9a5a4e814ec"
+                            style="color: white; font-weight: normal; text-decoration: none;"
+                            >Composer (HPE OneView) 4.10.04 and Image Streamer
+                            4.10.04</a
+                        >
+                    </p>
+
+                    <p>
+                        <a
+                            href="https://www.hpe.com/global/swpublishing/MTX-ca76c720ebfb4d61bf7a33fd05"
+                            style="color: white; font-weight: normal; text-decoration: none;"
+                            >Composer (HPE OneView) 4.10.03 and Image Streamer
+                            4.10.04</a
+                        >
+                    </p>
+
+                    <p>
+                        <a
+                            href="https://www.hpe.com/global/swpublishing/MTX-cc1700d3df354ad88ef6579dd0"
+                            style="color: white; font-weight: normal; text-decoration: none;"
+                            >Composer (HPE OneView) 4.10.01 and Image Streamer
+                            4.10.03</a
+                        >
+                    </p>
+                </td>
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    <p>2018.06.20180709</p>
+                    <p>2018.06.20180619</p>
+                </td>
+                <td
+                    style="text-align: center; border-left-style: solid; border-color: #eee;"
+                >
+                    <p>2018.09.20180919</p>
+                </td>
+                <td
+                    style="text-align: center; border-left-style: solid;  border-color: #eee;"
+                >
+                    <p>2018.11.20181205</p>
+                </td>
+                <td
+                    style="text-align: center; border-left-style: solid; border-right-style: solid;border-color: #eee;"
+                >
+                    Not Supported
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- END TABLE -->
+
+    <!-- DOWNLOAD INSTRUCTIONS -->
+
+    <h3 style="margin-top: 40px;">
+        HPE Passport account login and download
+    </h3>
+
+    <p>Access to the software releases requires validation via the HPE Support Center. You must be logged in and have a valid HPE warranty or HPE support agreement linked to your account.</p>
+    
+    <ol>
+        <li>
+            Log in to your HPE Passport account (one-time) (<a
+                href="https://www.hpe.com/support/hpesc"
+                style="color: black; font-weight: bold;"
+                >HPE Support Center</a
+            >).
+        </li>
+        <li>
+            <a
+                href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04055475"
+                style="color: #000; font-weight: bold;"
+                >Link your HPE warranty or HPE support agreement</a
+            >
+            to your HPE Passport account, if you have not already done so.
+        <p><b>NOTE:</b> You only have to perform this linking process once.</p></li>
+        <li>Select an HPE Synergy Management combination from the table above.</li>
+      
+    </ol>
+    
+      
+        <p>
+            In future downloads, the HPE Support Center will recognize your
+            entitlement as long as your product has an active HPE Warranty or
+            HPE Support Agreement.
+        </p>
+        <p>
+            For instructions on deploying software updates, see the
+            <i>HPE OneView for HPE Synergy Firmware and Driver Update Guide</i>
+            on the
+            <a
+                href="http://www.hpe.com/info/synergy-docs"
+                style="color: #000; font-weight: bold;"
+                >Hewlett Packard Enterprise Information Library</a
+            >.
+        </p>
+
+    <!-- WHAT'S NEW? INFORMATION ABOUT LATEST MANAGEMENT COMBINATION AND CUSTOM SPP -->
+
+    <h1 style="margin-top: 40px;">What's New?</h1>
+
+    <h3 style="margin-top: 40px;">
+        HPE Synergy Management combination of Composer 5.0 (HPE OneView) and Image Streamer
+        5.0
+    </h3>
+
+    <p>
+        <b>IMPORTANT:</b>New hardware and features introduced for HPE Synergy 5.0 require
+        the latest HPE Synergy Custom SPP.
+    </p>
+
+    <p>
+        For information on new supported features, see the
+        <i>HPE Synergy Firmware Features Table</i> on the
+        <a
+            href="http://www.hpe.com/info/synergy-sw-release-information"
+            style="color: #000; font-weight: bold;"
+            >HPE Synergy Software Release Information</a
+        >
+        site.
+    </p>
+
+    <p>
+        This Synergy Management combination provides enhancements which include:
+    </p>
+
+    <ul>
+        <li>
+            Virtual Connect Fabric and Networking support for Synergy IPv6
+            operations, Large network sets, and Arista Top-of-Rack (ToR)
+            switches
+        </li>
+        <li>iLO Remote Access for Composer2 management appliances</li>
+        <li>Enhanced security in Composer2 and 4-port Frame Link Modules</li>
+        <li>Firmware Compliance Dashboard for Gen10-based servers</li>
+        <li>
+            Consistency Reporting for Firmware and BIOS (Server Profile to
+            Server Hardware)
+        </li>
+        <li>Brocade REST API (FOS) for BNA replacement</li>
+        <li>Supportability and Remote Support enhancements</li>
+        <li>Cluster profile ‘rolling cluster update’ for VMware vSAN</li>
+        <li>
+            Image Streamer 5.0 enablement for:
+            <ul>
+                <li>Use with VC SE 100Gb F32 Module and Composer2</li>
+                <li>Pre-upgrade health checks and bundled support tools</li>
+                <li>
+                    OS Deployment artifacts for SLES 12 SP3 or SP4, RHEL 7.6,
+                    SLES OS with BTRFS (using FAT32), and RHEL OS with XFS
+                    (using FAT32)
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul>
+       
+        <li>
+            For more information on HPE Synergy Composer 5.0, see the
+            <a
+                href="https://support.hpe.com/hpsc/doc/public/display?docId=a00069591en_us"
+                style="color: black; font-weight: bold;"
+                >HPE OneView 5.0 Release Notes for HPE Synergy</a
+            >.
+        </li>
+        <li>
+            For more information on HPE Synergy Image Streamer 5.0, see the
+            <a
+                href="https://support.hpe.com/hpsc/doc/public/display?docId=a00074767en_us"
+                style="color: black; font-weight: bold;"
+                >HPE Synergy Image Streamer 5.0 Release Notes</a
+            >.
+        </li>
+    </ul>
+
+    <h3 style="margin-top: 40px;">
+        HPE Synergy Custom SPP 2019.03.20190826 - Aug 2019
+    </h3>
+
+    <p class="p">
+        HPE Synergy Custom SPP 2019.03.20190826 is built on HPE Synergy Custom SPP 2019.03.20190718 and provides the latest fixes for HPE Synergy firmware components and is based on the core Service Pack for ProLiant (SPP) Version 2019.03.1. HPE Synergy Custom SPP 2019.03.20190826 also
+        includes:
+    </p>
+
+    <ul class="ul">
+        <li class="li">
+            <p class="p">
+                HPE Synergy 40Gb F8 Switch Module version 1.5.0.1004
+            </p>
+            <p class="p">
+                For a complete description, see the
+                <a
+                    class="xref external"
+                    style="color: black; font-weight: bold;"
+                    href="https://support.hpe.com/hpsc/doc/public/display?docId=a00004581en_us"
+                    target="_blank"
+                    >HPE Synergy 40Gb F8 Switch Module Release Notes</a
+                >.
+            </p>
+        </li>
+        <li><p>HPE Virtual Connect SE 40Gb F8 Module for HPE Synergy version 1.5.0.1004</p>
+        <p>For a complete description, see the <a class="xref external" style="color: black; font-weight: bold;" href="https://support.hpe.com/hpsc/doc/public/display?docId=a00004584en_us">HPE Virtual Connect SE 40Gb F8 Module for HPE Synergy Release Notes</a>.</p></li>
+        
+        
+        <li class="li">
+            <p class="p">
+                HPE Virtual Connect SE 100Gb F32 Module for HPE Synergy version
+                2.0.0.1006
+            </p>
+            <p class="p">
+                For a complete description, see the
+                <a
+                    class="xref external"
+                    style="color: black; font-weight: bold;"
+                    href="/C:/Users/petechri/AppDa"
+                    target="_blank"
+                    >HPE Virtual Connect SE 100Gb F32 Module for HPE Synergy
+                    Release Notes</a
+                >.
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                HPE Virtual Connect SE 16Gb FC Module for HPE Synergy version
+                5.10.69
+            </p>
+            <p class="p">
+                For a complete description, see the
+                <a
+                    class="xref external"
+                    style="color: black; font-weight: bold;"
+                    href="/C:/Users/petechri/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/XAJENHZA/TBD"
+                    target="_blank"
+                    >HPE Virtual Connect SE 16Gb FC Module for HPE Synergy
+                    Release Notes</a
+                >.
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                HPE Virtual Connect SE 32Gb FC Module for HPE Synergy version
+                5.10.69.
+            </p>
+            <p class="p">
+                For a complete description, see the
+                <a
+                    class="xref external"
+                    style="color: black; font-weight: bold;"
+                    href="/C:/Users/petechri/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/XAJENHZA/TBD"
+                    target="_blank"
+                    >HPE Virtual Connect SE 32Gb FC Module for HPE Synergy
+                    Release Notes</a
+                >.
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">HPE Synergy 6820C 25/50Gb Converged Network Adapter</p>
+            <p class="p">
+                For a complete description, see the product
+                <a
+                    class="xref external"
+                    style="color: black; font-weight: bold;"
+                    href="https://h20195.www2.hpe.com/v2/getdocument.aspx?docname=a00008523enw"
+                    target="_blank"
+                    >QuickSpecs</a
+                >.
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                HPE Integrated Lights-Out (HPE iLO 5) V 1.46 Jul 25 2019
+            </p>
+            <p class="p">
+                For a complete description, see the
+                <a
+                    class="xref external"
+                    style="color: black; font-weight: bold;"
+                    href="http://www.hpe.com/support/hpesc"
+                    target="_blank"
+                    >Hewlett Packard Enterprise Support Center</a
+                >.
+            </p>
+        </li>
+        <li>
+        <p>HPE Synergy 4-Port Frame Link Module</p>
+            
+            <ul>
+            <li> <p class="p">
+                Hardware root of trust anchors essential firmware to the Frame
+                Link Module processor.
+            </p> </li>
+            <li> <p class="p">
+                Secure Start ensures firmware integrity for the Frame Link
+                Module firmware.
+            </p></li>
+           <li>  <p class="p">
+                TPM protects the key used for file encryption to safeguard Frame
+                Link Module data.
+            </p></li>
+                
+                </ul>
+        </li>
+    </ul>
+  
+
+   
+
+  
+    <ul>
+        <li class="li">HPE Synergy Composer2</li>
+<ul>
+        <li class="li"><p class="p">Enhanced security and performance.</p></li>
+        <li class="li"><p class="p">Expanded firmware repository.</p></li>
+        <li class="li"><p class="p">Secure boot and secure start.</p></li>
+    </ul>
+        </ul>
+
+    <h3 style="margin-top: 40px;">
+        HPE Synergy Custom SPP 2019.03.20190825 - Aug 2019
+    </h3>
+
+    <p>
+        This Synergy Custom SPP is based on the March-2019 Core SPP 2019.03.1,
+        and it provides:
+    </p>
+    <ul>
+        <li>Updated iLO5 firmware and System ROM firmware</li>
+        <li>Support for VMware ESXi 6.5 U3 and ESXi 6.7 U3</li>
+    </ul>
+    
+      <p class="p">
+        For a complete description, see the
+        <a
+            class="xref external"
+            style="color: black; font-weight: bold;"
+            href="http://www.hpe.com/support/hpesc"
+            target="_blank"
+            >Hewlett Packard Enterprise Support Center</a>.
+    </p>
+
+    <!-- SOFTWARE RELEASE INFORMATION -->
+
+    <h3 style="margin-top: 50px;">HPE Synergy Software Release Information</h3>
+
+    <p class="p">
+        Provides an interactive resource for firmware update information. HPE
+        Synergy firmware update resources are also available within HPE OneView.
+    </p>
+
+    <ul>
+        <li>VMware OS Support for HPE Synergy Tool</li>
+        <li>HPE Synergy Firmware Comparison Tool</li>
+        <li>HPE Synergy Firmware Feature Table</li>
+        <li>HPE Synergy Upgrade Paths Table</li>
+    </ul>
+
+    <p class="p">
+        (<a
+            class="xref external"
+            style="color: black; font-weight: bold;"
+            href="http://www.hpe.com/info/synergy-sw-release-information"
+            target="_blank"
+            >http://www.hpe.com/info/synergy-sw-release-information</a
+        >)
+    </p>
+
+    <h3 style="margin-top: 50px;">Guidance</h3>
+
+    <p class="p">
+        <strong class="ph b">
+            End-of-Support (EOS) will occur on 30-June-2019</strong
+        >
+        for Synergy Composer 4.00 releases, Image Streamer 4.00 releases, and
+        any Synergy Custom SPP using the March-2018 Core SPP.
+    </p>
+
+    <p class="p">
+        <strong class="ph b"> Archive of HPE Synergy Software Releases</strong>
+        -- for recovery images for all HPE Synergy Management combinations and
+        all versions of HPE Synergy Custom SPP's, see<a
+            class="xref"
+            style="color: black; font-weight: bold;"
+            href="https://www.hpe.com/global/swpublishing/MTX-bcc9b4b0d36243e2b3bcb911aa"
+        >
+            HPE Synergy Software Releases Archive</a
+        >
+        .
+    </p>
+
+    <p class="p">
+        <strong class="ph b">
+            Support Policy for HPE Synergy Software Releases</strong
+        >
+        -- for policies on support of Synergy Management combinations and
+        Synergy Custom SPPs, see
+        <a
+            class="xref"
+            style="color: black; font-weight: bold;"
+            href="http://www.hpe.com/info/synergy-sw-release-support-policy"
+            >HPE Synergy Software Releases Support Policy</a
+        >.
+    </p>
+
+    <h3 style="margin-top: 40px;">Resources</h3>
+
+    <p class="p">
+        The following references may help you understand more about HPE
+        processes.
+    </p>
+
+    <ul class="ul">
+        <li class="li">
+            <p class="p">
+                <a
+                    class="xref"
+                    style="color: black; font-weight: bold;"
+                    href="http://www.hpe.com/support/hpesc"
+                    >HPE Support Center</a
+                >
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                <a
+                    class="xref"
+                    style="color: black; font-weight: bold;"
+                    href="https://h20566.www2.hpe.com/hpsc/swd/public/license?sp4ts.html"
+                    >HPE Software License Agreement</a
+                >
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                <a
+                    class="xref"
+                    style="color: black; font-weight: bold;"
+                    href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=c03859703&lang=en-us&cc=us"
+                    >HPE Support Materials</a
+                >
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                <a
+                    class="xref"
+                    style="color: black; font-weight: bold;"
+                    href="https://support.hpe.com/hpesc/public/home/signin?TYPE=33554433&REALMOID=06-00032362-6ad0-17d0-9e77-70ef10c3d05d&GUID=1&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=$SM$AoEbNsrbfLdO5YoITjTWCFNIDQm2j0D%2bjRAujrpiILT1wnmhd45eUMxxYrDB79Mi&TARGET=$SM$https%3a%2f%2fsupport%2ehpe%2ecom%2fportal%2fsite%2fhpsc"
+                    >HPE Customer Advisories</a
+                >
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                <a
+                    class="xref"
+                    style="color: black; font-weight: bold;"
+                    href="http://www.hpe.com/info/synergy-docs"
+                    >HPE Synergy product documentation</a
+                >
+            </p>
+            <p class="p">
+                - Configuration &amp; Compatibility Guide, Release Notes,
+                Troubleshooting Guide, Software Overview Guide, Glossary
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                <a
+                    class="xref"
+                    style="color: black; font-weight: bold;"
+                    href="https://support.hpe.com/hpsc/doc/public/display?docId=a00043332en_us"
+                    >Revised Model for HPE Synergy Software Releases (PN:
+                    P06778-001)</a
+                >
+            </p>
+            <p class="p">
+                - Descriptions of the process and nomenclature changes (with a
+                mapping of 'Synergy Software Release Sets' to 'Synergy Software
+                Releases')
+            </p>
+        </li>
+        <li class="li">
+            <p class="p">
+                <a
+                    class="xref"
+                    style="color: black; font-weight: bold;"
+                    href="https://support.hpe.com/hpsc/doc/public/display?docId=a00061395en_us"
+                    >Overview of HPE Synergy Software Releases</a
+                >
+                - A primer on Synergy Software Releases: construction,
+                components, support policies, important links, and how to use
+                them.
+            </p>
+        </li>
+    </ul>
+        
+        </div>
+
+
+    
+   
+        
+        
+        </div></div>
+        
+    
+    
+    </div>    
+    
+
+    </body>
+
+</html>
