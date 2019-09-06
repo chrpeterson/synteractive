@@ -102,11 +102,23 @@
         
            
            #navlinks .pagenav {width: 100%; text-align: center !important; }
-
-           
           
-           
 }
+     
+        @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { #content {width: 100%; flex-direction: column;}
+           
+    #one {width: 100%; flex-direction: row; height: 30px; text-align: center; overflow: hidden;}
+           
+           #two {width: 100%;}
+           
+           #one:hover {overflow: visible; height: 200px; transition: height 0.3s linear;}
+         
+        
+           
+           #navlinks .pagenav {width: 100%; text-align: center !important; }
         
     </style>
     
